@@ -41,11 +41,44 @@
   }
   body {
     background: url("mp4/data_analysis_digital.mov") no-repeat;
-    background: url("mp4/abstract_line5.mp4") no-repeat;
     background-size: cover;
   }
 }
 
-h1 {
+#body2 {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    rgb(124, 150, 221),
+    rgba(131, 141, 170, 0.487)
+  );
+}
+
+#body1 {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgba(131, 171, 236, 0.968)
+  );
+}
+
+h1,
+h3,
+p,
+footer {
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+
+footer a {
+  margin: 0 10px;
 }

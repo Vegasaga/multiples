@@ -50,8 +50,8 @@
   padding: 0;
   background: linear-gradient(
     to right,
-    rgb(124, 150, 221),
-    rgba(131, 141, 170, 0.487)
+    rgb(116, 147, 231),
+    rgba(199, 206, 229, 0.487)
   );
 }
 
@@ -61,7 +61,7 @@
   background: linear-gradient(
     to right,
     rgb(255, 255, 255),
-    rgba(131, 171, 236, 0.968)
+    rgba(85, 145, 242, 0.968)
   );
 }
 
@@ -81,4 +81,5 @@ img {
 
 footer a {
   margin: 0 10px;
+  color: #fff;
 }

@@ -78,21 +78,15 @@ h1.mainTitle {
   color: rgba(0, 0, 0, 0.684);
 }
 
-h2 {
-  color: rgba(0, 0, 0, 0.684);
-}
-
 h2.tittle {
   font-size: 70px;
-  color: rgba(0, 0, 0, 0.684);
-}
-h3.secondTitle {
   color: rgba(0, 0, 0, 0.684);
 }
 
 h1,
 h2,
 h3,
+h4,
 p,
 footer {
   text-align: center;

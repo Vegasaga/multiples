@@ -50,8 +50,8 @@
   padding: 0;
   background: linear-gradient(
     to right,
-    rgb(116, 147, 231),
-    rgba(199, 206, 229, 0.487)
+    rgb(255, 255, 255),
+    rgba(85, 145, 242, 0.968)
   );
 }
 
@@ -65,11 +65,39 @@
   );
 }
 
+h1 {
+  color: rgba(0, 0, 0, 0.725);
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  font-weight: 100px;
+}
+h1.mainTitle {
+  font-family: ;
+  font-size: 50px;
+  font-weight: 40px;
+  color: rgba(0, 0, 0, 0.684);
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.684);
+}
+
+h2.tittle {
+  font-size: 70px;
+  color: rgba(0, 0, 0, 0.684);
+}
+h3.secondTitle {
+  color: rgba(0, 0, 0, 0.684);
+}
+
 h1,
+h2,
 h3,
 p,
 footer {
   text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: rgba(0, 0, 0, 0.684);
 }
 
 img {
@@ -80,6 +108,18 @@ img {
 }
 
 footer a {
-  margin: 0 10px;
-  color: #fff;
+  margin: 0 20px;
+  font-family: "Orbitron", sans-serif;
+  color: rgba(255, 255, 255, 0.573);
+}
+
+img {
+  width: 300px;
+  border-radius: 100%;
+  -webkit-border-radius: 50%;
+  border-width: 10px;
+  box-shadow: -50px -20px 40px rgba(93, 73, 240, 0.25),
+    0px 50px 40px rgba(57, 199, 255, 0.3),
+    50px -20px 40px rgba(187, 118, 255, 0.3),
+    0 0 2pt 4pt rgba(255, 255, 255, 0.6);
 }

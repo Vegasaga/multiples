@@ -79,7 +79,7 @@ h1.mainTitle {
 }
 
 h2.tittle {
-  font-size: 70px;
+  font-size: 50px;
   color: rgba(0, 0, 0, 0.684);
 }
 
@@ -91,7 +91,7 @@ p,
 footer {
   text-align: center;
   font-family: "Orbitron", sans-serif;
-  color: rgba(0, 0, 0, 0.684);
+  color: rgba(0, 0, 0, 0.64);
 }
 
 footer a {

@@ -45,19 +45,14 @@
   }
 }
 
+#body1,
 #body2 {
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgba(85, 145, 242, 0.968)
-  );
-}
-
-#body1 {
-  margin: 0;
-  padding: 0;
+  background-size: 400% 400%;
+  animation: gradient;
+  height: fit-content;
+      10s ease infinite;
   background: linear-gradient(
     to right,
     rgb(255, 255, 255),

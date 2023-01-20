@@ -49,27 +49,88 @@
 #body2 {
   margin: 0;
   padding: 0;
-  background-size: 400% 400%;
   animation: gradient;
+  background-size: 400% 400%;
   height: fit-content;
-      10s ease infinite;
   background: linear-gradient(
     to right,
     rgb(255, 255, 255),
-    rgba(85, 145, 242, 0.968)
+    rgba(85, 145, 242, 0.852)
   );
 }
 
-#links{
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.sci {
+  position: relative;
+  display: flex;
+}
+.sci li {
+  list-style: none;
+}
+.sci li::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 120%));
+  font-size: 6vw;
+  pointer-events: none;
+  font-weight: 700;
+  transition: 0.5s;
+  opacity: 0;
+}
+.sci li:hover::before {
+  opacity: 0.5;
+  transform: translate(-50%, calc(-50% + 150%));
+}
+
+.sci li a {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 4em;
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+.sci li a:hover.css {
+  color: blue;
+}
+.sci li a:hover.html {
+  color: yellow;
+}
+.sci li a:hover.js {
+  color: rgb(255, 221, 0);
+}
+.sci li a:hover.boot {
+  color: blueviolet;
+}
+.sci li a:hover.react {
+  color: rgb(0, 157, 255);
+}
+
+#links {
   position: absolute;
   top: 94%;
   left: 0;
   right: 0;
   margin: 0 auto;
-  font-size: 30px;
- 
+  font-size: 20px;
 }
-a{
+#links a {
+  display: inline-block;
+  width: 45px;
   color: rgba(255, 255, 255, 0.505);
 }
 
@@ -80,7 +141,6 @@ h1 {
   font-weight: 100px;
 }
 h1.mainTitle {
-  font-family: ;
   font-size: 50px;
   font-weight: 40px;
   color: rgba(0, 0, 0, 0.684);

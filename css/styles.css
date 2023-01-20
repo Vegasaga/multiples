@@ -60,6 +60,19 @@
   );
 }
 
+#links{
+  position: absolute;
+  top: 94%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 30px;
+ 
+}
+a{
+  color: rgba(255, 255, 255, 0.505);
+}
+
 h1 {
   color: rgba(0, 0, 0, 0.725);
   font-family: "Orbitron", sans-serif;

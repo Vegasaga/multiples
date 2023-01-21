@@ -1,3 +1,4 @@
+/*music*/
 .bg-music {
   position: absolute;
   top: 64%;
@@ -22,7 +23,7 @@
 .fa-pause-circle-o {
   display: none;
 }
-
+/* main page video background */
 #myVideo {
   width: 100%;
   height: 100vh;
@@ -44,7 +45,7 @@
     background-size: cover;
   }
 }
-
+/* pages=about,projects background */
 #body1,
 #body2 {
   margin: 0;
@@ -58,7 +59,7 @@
     rgba(85, 145, 242, 0.852)
   );
 }
-
+/*brands icons setting */
 .languages {
   display: flex;
   justify-content: center;
@@ -68,14 +69,9 @@
 .sci {
   position: relative;
   display: flex;
-  padding: 0;
-  margin: 0;
-  width: 100%;
 }
 .sci li {
   list-style: none;
-  display: inline-block;
-  width: 25%;
 }
 .sci li::before {
   content: attr(data-text);
@@ -136,6 +132,7 @@
   }
 }
 
+/*social media icons*/
 #links {
   position: absolute;
   top: 94%;
@@ -150,6 +147,7 @@
   color: rgba(255, 255, 255, 0.505);
 }
 
+/* main pages CSS*/
 h1 {
   color: rgba(0, 0, 0, 0.725);
   font-family: "Orbitron", sans-serif;

@@ -78,22 +78,22 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% + 120%));
+  transform: translate(-50%, calc(-50% + 90%));
   font-size: 6vw;
   pointer-events: none;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.5s;
   opacity: 0;
 }
 .sci li:hover::before {
   opacity: 0.5;
-  transform: translate(-50%, calc(-50% + 150%));
+  transform: translate(-50%, calc(-50% + 110%));
 }
 
 .sci li a {
   position: relative;
   display: inline-block;
-  width: 120px;
+  width: 100px;
   height: 120px;
   background: transparent;
   justify-content: center;

@@ -68,9 +68,14 @@
 .sci {
   position: relative;
   display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 .sci li {
   list-style: none;
+  display: inline-block;
+  width: 25%;
 }
 .sci li::before {
   content: attr(data-text);

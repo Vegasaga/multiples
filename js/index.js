@@ -11,8 +11,3 @@ $(document).ready(function () {
     $("#myMusic")[0].pause();
   });
 });
-
-VanillaTilt.init(document.querySelectorAll(".sci li a"), {
-  max: 25,
-  speed: 400,
-});

@@ -123,7 +123,16 @@
 .sci li a:hover.react {
   color: rgb(0, 157, 255);
 }
-
+@media ((max-width: 860px)) and (min-width: 300px) {
+  .sci li a {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .sci li a {
+    width: 100%;
+  }
+}
 /*social media icons*/
 
 #links a {

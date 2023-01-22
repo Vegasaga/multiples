@@ -37,7 +37,7 @@
   z-index: -1;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 950px) {
   #background-video {
     display: none;
   }

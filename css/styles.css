@@ -124,16 +124,6 @@
   color: rgb(0, 157, 255);
 }
 
-@media ((max-width: 960px)) and (min-width: 300px) {
-  .sci li a {
-    width: 50%;
-  }
-}
-@media (max-width: 500px) {
-  .sci li a {
-    width: 100%;
-  }
-}
 /*social media icons*/
 
 #links a {
@@ -177,7 +167,7 @@ footer a {
   padding: 10px 15px;
   border-radius: 50%;
   font-family: "Orbitron", sans-serif;
-  color: rgba(255, 255, 255, 0.632);
+  color: rgba(255, 255, 255, 0.573);
 }
 
 img {

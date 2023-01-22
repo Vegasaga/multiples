@@ -1,7 +1,7 @@
 /*music*/
 .bg-music {
   position: relative;
-  top: -64%;
+  top: 64%;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -70,6 +70,7 @@
 .sci {
   position: relative;
   display: flex;
+  padding: 0 auto;
 }
 .sci li {
   list-style: none;
@@ -137,6 +138,7 @@
 
 #links a {
   margin: 10px;
+  font-size: 20px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.505);
 }

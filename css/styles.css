@@ -42,7 +42,7 @@
     display: none;
   }
   body {
-    background: url("mp4/data_analysis_digital.mov") no-repeat;
+    background: url("mp4/data_analysis_digital.mov");
     background-size: cover;
   }
 }

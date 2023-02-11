@@ -70,7 +70,7 @@
 .sci {
   position: relative;
   display: flex;
-  padding: 0 auto;
+  padding: 0;
 }
 .sci li {
   list-style: none;
@@ -104,7 +104,7 @@
   border-radius: 10px;
   text-decoration: none;
   margin: 10px;
-  font-size: 3em;
+  font-size: 3rem;
   transform-style: preserve-3d;
   perspective: 500px;
   color: black;

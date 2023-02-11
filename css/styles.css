@@ -104,7 +104,7 @@
   border-radius: 10px;
   text-decoration: none;
   margin: 10px;
-  font-size: 3rem;
+  font-size: 5rem;
   transform-style: preserve-3d;
   perspective: 500px;
   color: black;
@@ -127,11 +127,13 @@
 @media ((max-width: 860px) and (min-width: 300px)) {
   .sci li a {
     width: 50%;
+    font-size: 3rem;
   }
 }
 @media (max-width: 500px) {
   .sci li a {
     width: 70%;
+    font-size: 3rem;
   }
 }
 /*social media icons*/

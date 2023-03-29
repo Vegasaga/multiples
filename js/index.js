@@ -11,3 +11,9 @@ $(document).ready(function () {
     $("#myMusic")[0].pause();
   });
 });
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});

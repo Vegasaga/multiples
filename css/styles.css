@@ -213,7 +213,7 @@ footer a {
   color: rgba(255, 255, 255, 0.573);
 }
 
-@media (max-width: 2000px) {
+@media ((max-width: 2000px) and (min-width: 300px)) {
   .about-portfolio a {
     margin: 0 20px;
     text-decoration: none;

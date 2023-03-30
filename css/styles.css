@@ -204,16 +204,25 @@ footer {
   color: rgba(0, 0, 0, 0.64);
 }
 
-footer a {
+.homepage a {
   margin: 0 20px;
   padding: 10px 15px;
   border-radius: 50%;
   text-decoration: none;
   font-family: "Orbitron", sans-serif;
-  color: rgba(255, 255, 255, 0.573);
+  color: rgba(0, 0, 0, 0.64);
 }
 
-@media ((max-width: 2000px) and (min-width: 300px)) {
+.about-portfolio a {
+  margin: 0 20px;
+  text-decoration: none;
+
+  -webkit-background-clip: text;
+  background-clip: text; /* clip background to the text */
+  background-image: linear-gradient(to right bottom, #3e2eed 50%, #5f3af4 100%);
+}
+
+@media (max-width: 2000px) {
   .about-portfolio a {
     margin: 0 20px;
     text-decoration: none;

@@ -218,6 +218,7 @@ footer a {
     margin: 0 10px;
     text-decoration: none;
     background-clip: text; /* clip background to the text */
+    background-color: transparent;
     background-image: linear-gradient(
       to right bottom,
       #210df6 50%,

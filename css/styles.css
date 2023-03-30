@@ -69,6 +69,21 @@
     rgb(255, 255, 255),
     rgba(85, 145, 242, 0.852)
   );
+  background-size: 1000% 1000%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 /*brands icons setting */
 .languages {
@@ -174,6 +189,10 @@ h2.tittle {
   color: rgba(0, 0, 0, 0.684);
 }
 
+p a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -189,8 +208,29 @@ footer a {
   margin: 0 20px;
   padding: 10px 15px;
   border-radius: 50%;
+  text-decoration: none;
   font-family: "Orbitron", sans-serif;
   color: rgba(255, 255, 255, 0.573);
+}
+
+@media (max-width: 2000px) {
+  .about-portfolio a {
+    margin: 0 10px;
+    text-decoration: none;
+    background-clip: text; /* clip background to the text */
+    background-image: linear-gradient(
+      to right bottom,
+      #210df6 50%,
+      #5f3af4 100%
+    );
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homepage a {
+    margin: 0 20px;
+    color: rgba(0, 0, 0, 0.725);
+  }
 }
 
 .text-center {
@@ -201,6 +241,7 @@ img {
   display: block;
   margin: 30px auto;
   width: 300px;
+  height: auto;
   border-radius: 100%;
   -webkit-border-radius: 50%;
   border-width: 10px;
